@@ -27,3 +27,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 Unit test are written using [React Testing Library](https://testing-library.com/docs/) and [Vitest](https://vitest.dev/) as the test runner.
 
 To run the test use `yarn test` on the terminal.
+
+## Bonus
+
+The app has been deployed to vercel [Vercel](https://b1sa-next.vercel.app/), you can use the link to test or via local server.
+Added debouncing to validating user input on the puzzle solver, to allow the user some buffer time to full type the number word and to not validate on every key stroke.
