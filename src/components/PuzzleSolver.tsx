@@ -16,7 +16,8 @@ import { PuzzleTable } from "./PuzzleTable";
 import { cn } from "@/lib/utils";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 
-const pattern = /^(?:one|two|three|four|five|six|seven|eight|nine|ten\s?)+$/;
+const pattern =
+  /^(?:zero|one|two|three|four|five|six|seven|eight|nine|ten\s?)+$/;
 
 export const PuzzleSolver: FC = () => {
   const [input, setInput] = useState<string>("");
